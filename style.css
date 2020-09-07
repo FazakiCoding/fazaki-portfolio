@@ -1,4 +1,24 @@
 
+.sidebar {
+    position: fixed;
+    width: 250px;
+    left: 10px;
+    top: 20px;
+    bottom: 0;
+    background-color: white;
+    border-right: blue;
+  }
+.page-content {
+    margin-left: 200px;
+}  
+.sidebar ul {
+    list-style: none;
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 10px;
+    
+}
+  
 body{
     background:#eeece7 ;
     color:#575F7D;
@@ -125,5 +145,8 @@ a:hover{
 
 
 
-
+ul#li-inline li{
+    display: inline;
+    margin: 10px;
+}
 
