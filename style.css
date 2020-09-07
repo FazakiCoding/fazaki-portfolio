@@ -1,6 +1,6 @@
 
 body{
-    background:#F7F9FC ;
+    background:#eeece7 ;
     color:#575F7D;
     font-family: Helvetica;
     font-size:17px;
@@ -18,7 +18,7 @@ h1{
 h2{
     color:#7ECE90;
     font-size: 24px;
-    font-weight:lighter;
+    font-weight:bolder;
     font-weight:500;
 }
 a{
@@ -70,7 +70,7 @@ a:hover{
     height: 150px;
 }
 .btn-blue{
-    background-color: #6B72E1;
+    background-color: #435b64;
     color: white;
     padding: 15px;
     border-radius: 4px;
@@ -98,17 +98,29 @@ a:hover{
     color:black;
 }
 /* Design adjustments using id(1%) */
-#introduction p{
+#introduction{
     margin-bottom: 40px;
+    text-align: left;
 }
 
 
+.card-white li {
+    text-align: left;
+}
+#li-grey{
+    color:rgb(153, 149, 149);
+}
 
+#bold-red {
+    color: red;
+}
+#bold-black{
+    color: black;
+}
 
-
-
-
-
+#a-black-u{
+    color: black;
+}
 
 
 
